@@ -2,7 +2,7 @@
 
 Exercicios propostos no curso de c# da ADA. Turma DiverseDev
 
-# Operações com listas 
+## Operações com listas 
 
    *Escreva uma função que receba uma lista de strings e retorne uma nova lista contendo somente strings que contenham 10 ou mais caracteres.*
 
