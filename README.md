@@ -7,8 +7,11 @@ Exercicios propostos no curso de c# da ADA. Turma DiverseDev
    *Escreva uma função que receba uma lista de strings e retorne uma nova lista contendo somente strings que contenham 10 ou mais caracteres.*
 
    Use a estrutura de dados List<> para resolver.
+   
    Não use métodos de extensão Linq, implemente sua função usando estruturas de repetição (laços, loopings).
+   
    Use a seguinte lista de strings como entrada para os testes:
+   
    csharp
    var input = new List<string>{
       "Idiossincrasia",
@@ -22,35 +25,44 @@ Exercicios propostos no curso de c# da ADA. Turma DiverseDev
       "Quixote",
       "Inefável"
    }
-   
+
 
 ## Operações com pilhas
 
    *Escreva uma função que receba uma expressão mátemática como entrada e verifique se a expressão está balanceada. Uma expressão está balanceada se para cada parênteses de abertura, existe um parênteses de fechamento correspondente.*
 
    Use a estrutura de dados Stack<> para resolver.
+   
    Considere todos os 3 tipos de parênteses como ((), {}, [])
    Não use métodos de extensão Linq, implemente sua função usando estruturas de repetição (laços, loopings).
    
    Exemplo de expressão balanceada: (2+1)*80/(7-[√9 + {4² * 0}])
+   
    Exemplo de expressão não balanceada: ([{35 - 2} + 5*3} + 0 / 15) - [3 + 5³] * 11)
 
 ## Operações com filas
    Escreva uma função que simule o jogo de batata quente. 
+   
    Nesse jogo, jogadores passam a batata quente por um círculo até ela explodir. O jogador que estiver com a batata quando explodir está fora do jogo. 
    
    Use a estrutura de dados Queue<> para resolver.
+   
    A função deve receber o número de jogadores como parâmetro de entrada.
+   
    A função deve selecionar um *número aleatório entre 1 e 100* que será a quantidade de passes até a batata explodir.
+   
    Cada jogador que "sobreviver" à passagem da batata deve ir para o fim da fila, até que a batata exploda.
+   
    Não use métodos de extensão Linq, implemente sua função usando estruturas de repetição (laços, loopings).
 
 ## Operações com dicionário
 
    *Utilizadno um dicionário, crie um contador de palavras.*
+   
    O programa deve receber como entrada um texto e, usando dicionário, contar quantas ocorrências de cada palavra acontecem nesse texto.
 
    Use a estrutura de dados Dictionary<,> para resolver.
+   
    Não use métodos de extensão Linq.
 
    Use o seguinte texto como input para fins de teste:
