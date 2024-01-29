@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 
 namespace Exercise4Dictionary
 {
@@ -15,7 +10,7 @@ namespace Exercise4Dictionary
 
             string[] words = cleanedText.Split();
 
-            Dictionary<string, int> wordCounted = new Dictionary<string, int>();
+            Dictionary<string, int> wordCounted = new();
 
             foreach (string word in words)
             {
